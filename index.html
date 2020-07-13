@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>myLibrary</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  </head>
+<body>
+  <main>
+    <div id="titlediv">
+      <h1>Library</h1>
+      </div>
+      <div id="book-div">
+        <form onsubmit="return false">
+          <label>Book Name</label>
+          <input type="text" placeholder="input book name" name="book"> <br>
+          <label>Author: </label>
+          <input type="text" placeholder="Author" name="book"> <br>
+          <label>Number of Pages: </label>
+          <input type="number" name="book"><br>
+          <label>Read:</label>
+          <input type="checkbox" name="book"><br>
+          <input type="submit">
+        </form>
+        <table style ="width: 100%">
+        <tr>
+          <th>Book Name:</th>
+          <th>Author:</th>
+          <th>Number of Pages</th>
+          <th>Read:</th>
+          <th></th>
+        </tr>
+        </table>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
